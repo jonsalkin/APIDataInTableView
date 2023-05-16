@@ -13,6 +13,8 @@
 		2C02090A2A12E51F002A5E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0209082A12E51F002A5E39 /* Main.storyboard */; };
 		2C02090C2A12E523002A5E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C02090B2A12E523002A5E39 /* Assets.xcassets */; };
 		2C02090F2A12E523002A5E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C02090D2A12E523002A5E39 /* LaunchScreen.storyboard */; };
+		2C0209172A1307FB002A5E39 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0209162A1307FB002A5E39 /* HeroViewController.swift */; };
+		2C0209192A1309BC002A5E39 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0209182A1309BC002A5E39 /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C02090B2A12E523002A5E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C02090E2A12E523002A5E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0209102A12E523002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0209162A1307FB002A5E39 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		2C0209182A1309BC002A5E39 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2C02090B2A12E523002A5E39 /* Assets.xcassets */,
 				2C02090D2A12E523002A5E39 /* LaunchScreen.storyboard */,
 				2C0209102A12E523002A5E39 /* Info.plist */,
+				2C0209162A1307FB002A5E39 /* HeroViewController.swift */,
+				2C0209182A1309BC002A5E39 /* HeroStats.swift */,
 			);
 			path = APIDataInTableView;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0209172A1307FB002A5E39 /* HeroViewController.swift in Sources */,
 				2C0209072A12E51F002A5E39 /* ViewController.swift in Sources */,
 				2C0209032A12E51F002A5E39 /* AppDelegate.swift in Sources */,
+				2C0209192A1309BC002A5E39 /* HeroStats.swift in Sources */,
 				2C0209052A12E51F002A5E39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
